@@ -9,3 +9,14 @@ C:\Users\fkami\source\repos\biblioteca_2\biblioteca_2\obj\Debug\biblioteca_2.csp
 C:\Users\fkami\source\repos\biblioteca_2\biblioteca_2\obj\Debug\biblioteca_2.csproj.CoreCompileInputs.cache
 C:\Users\fkami\source\repos\biblioteca_2\biblioteca_2\obj\Debug\biblioteca_2.exe
 C:\Users\fkami\source\repos\biblioteca_2\biblioteca_2\obj\Debug\biblioteca_2.pdb
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\bin\Debug\biblioteca_2.exe.config
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\bin\Debug\biblioteca_2.exe
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\bin\Debug\biblioteca_2.pdb
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.csproj.AssemblyReference.cache
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.Form1.resources
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.Properties.Resources.resources
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.csproj.GenerateResource.cache
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.csproj.CoreCompileInputs.cache
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.exe
+C:\Users\fkami\OneDrive\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.pdb
