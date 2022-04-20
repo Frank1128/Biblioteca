@@ -29,9 +29,9 @@ namespace biblioteca_2
         private void btn_registro(object sender, EventArgs e)
 
         {
-            if (txt_nombre.Text == string.Empty || txt_contraseña.Text == string.Empty ||
-                txt_apellido.Text == string.Empty || txt_tel.Text == string.Empty ||
-                txt_cc.Text == string.Empty || txt_email.Text == string.Empty)
+            if (txt_nombre.Text == string.Empty || txt_passw.Text == string.Empty ||
+                txt_apellidos.Text == string.Empty || txt_phone.Text == string.Empty ||
+                txt_cedula.Text == string.Empty || txt_mail.Text == string.Empty)
             {
                 MessageBox.Show("Debes llenar los campos");
             }
@@ -48,8 +48,8 @@ namespace biblioteca_2
                     try
                     {
                         string query = "INSERT INTO USUARIOS(Celular,contrasena,Nombres,Apellidos,Num_Identificacion,Correo_electronico ) " +
-                            "VALUES('" + txt_tel.Text + "','" + txt_contraseña.Text + "','" + txt_nombre.Text + "','" +
-                                            txt_apellido.Text + "','" + txt_cc.Text + "','" + txt_email.Text + "')";
+                            "VALUES('" + txt_phone.Text + "','" + txt_passw.Text + "','" + txt_nombre.Text + "','" +
+                                            txt_apellidos.Text + "','" + txt_cedula.Text + "','" + txt_mail.Text + "')";
                         //conn.Open();
                         SqlCommand cmd = new SqlCommand(query, conn);
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -70,11 +70,11 @@ namespace biblioteca_2
         public void LimpiarCampos()
         {
             txt_nombre.Text = "";
-            txt_apellido.Text = "";
-            txt_email.Text = "";
-            txt_tel.Text = "";
-            txt_cc.Text = "";
-            txt_contraseña.Text = "";
+            txt_apellidos.Text = "";
+            txt_mail.Text = "";
+            txt_phone.Text = "";
+            txt_cedula.Text = "";
+            txt_passw.Text = "";
         }
         public bool ExisteCorreo()
         {

@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(REGISTRO));
             this.btn_Registrarse = new System.Windows.Forms.Button();
             this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_phone = new System.Windows.Forms.TextBox();
+            this.txt_mail = new System.Windows.Forms.TextBox();
+            this.txt_apellidos = new System.Windows.Forms.TextBox();
+            this.txt_cedula = new System.Windows.Forms.TextBox();
+            this.txt_passw = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_tel = new System.Windows.Forms.Label();
             this.txt_email = new System.Windows.Forms.Label();
@@ -60,40 +61,41 @@
             this.txt_nombre.Size = new System.Drawing.Size(151, 26);
             this.txt_nombre.TabIndex = 1;
             // 
-            // textBox2
+            // txt_phone
             // 
-            this.textBox2.Location = new System.Drawing.Point(358, 265);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 26);
-            this.textBox2.TabIndex = 2;
+            this.txt_phone.Location = new System.Drawing.Point(358, 265);
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(151, 26);
+            this.txt_phone.TabIndex = 2;
             // 
-            // textBox3
+            // txt_mail
             // 
-            this.textBox3.Location = new System.Drawing.Point(358, 335);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 26);
-            this.textBox3.TabIndex = 3;
+            this.txt_mail.Location = new System.Drawing.Point(358, 335);
+            this.txt_mail.Name = "txt_mail";
+            this.txt_mail.Size = new System.Drawing.Size(151, 26);
+            this.txt_mail.TabIndex = 3;
             // 
-            // textBox4
+            // txt_apellidos
             // 
-            this.textBox4.Location = new System.Drawing.Point(358, 132);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(151, 26);
-            this.textBox4.TabIndex = 4;
+            this.txt_apellidos.Location = new System.Drawing.Point(358, 132);
+            this.txt_apellidos.Name = "txt_apellidos";
+            this.txt_apellidos.Size = new System.Drawing.Size(151, 26);
+            this.txt_apellidos.TabIndex = 4;
             // 
-            // textBox5
+            // txt_cedula
             // 
-            this.textBox5.Location = new System.Drawing.Point(358, 205);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(151, 26);
-            this.textBox5.TabIndex = 5;
+            this.txt_cedula.Location = new System.Drawing.Point(358, 205);
+            this.txt_cedula.Name = "txt_cedula";
+            this.txt_cedula.Size = new System.Drawing.Size(151, 26);
+            this.txt_cedula.TabIndex = 5;
             // 
-            // textBox6
+            // txt_passw
             // 
-            this.textBox6.Location = new System.Drawing.Point(358, 406);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(151, 26);
-            this.textBox6.TabIndex = 6;
+            this.txt_passw.Location = new System.Drawing.Point(358, 406);
+            this.txt_passw.Name = "txt_passw";
+            this.txt_passw.PasswordChar = '*';
+            this.txt_passw.Size = new System.Drawing.Size(151, 26);
+            this.txt_passw.TabIndex = 6;
             // 
             // label1
             // 
@@ -161,13 +163,14 @@
             this.Controls.Add(this.txt_email);
             this.Controls.Add(this.txt_tel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_passw);
+            this.Controls.Add(this.txt_cedula);
+            this.Controls.Add(this.txt_apellidos);
+            this.Controls.Add(this.txt_mail);
+            this.Controls.Add(this.txt_phone);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.btn_Registrarse);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "REGISTRO";
             this.Text = "REGISTRO";
             this.ResumeLayout(false);
@@ -179,11 +182,11 @@
 
         private System.Windows.Forms.Button btn_Registrarse;
         private System.Windows.Forms.TextBox txt_nombre;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_phone;
+        private System.Windows.Forms.TextBox txt_mail;
+        private System.Windows.Forms.TextBox txt_apellidos;
+        private System.Windows.Forms.TextBox txt_cedula;
+        private System.Windows.Forms.TextBox txt_passw;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label txt_tel;
         private System.Windows.Forms.Label txt_email;
