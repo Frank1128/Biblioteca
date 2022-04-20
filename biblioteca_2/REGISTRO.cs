@@ -97,5 +97,16 @@ namespace biblioteca_2
             return existe;
         }
 
+        private void REGISTRO_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Portada PORTADA = new Portada();
+            PORTADA.Show();
+        }
     }
 }

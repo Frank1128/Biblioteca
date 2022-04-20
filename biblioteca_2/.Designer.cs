@@ -206,6 +206,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca Nacional";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

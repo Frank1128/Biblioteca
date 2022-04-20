@@ -69,5 +69,10 @@ namespace biblioteca_2
         {
 
         }
+
+        private void Portada_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
