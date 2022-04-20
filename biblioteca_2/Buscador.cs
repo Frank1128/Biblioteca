@@ -108,12 +108,12 @@ namespace biblioteca_2
 
 
                 }
-                else if (i == 7)
+                else if (i ==7)
                 {
                     MessageBox.Show("En estos momentos no se encuentra el libro", "Ups", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
-        }
+        } 
 
         private void button3_Click(object sender, EventArgs e)
         {
