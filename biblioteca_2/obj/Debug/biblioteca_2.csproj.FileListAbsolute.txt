@@ -22,3 +22,12 @@ C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.exe
 C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.pdb
 C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.Portada.resources
 C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.REGISTRO.resources
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.Permissions.dll
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.Permissions.xml
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Usuario\Desktop\Biblioteca\biblioteca_2\obj\Debug\biblioteca_2.csproj.CopyComplete
