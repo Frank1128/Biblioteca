@@ -47,7 +47,7 @@ namespace biblioteca_2
                 {
                     try
                     {
-                        string query = "INSERT INTO USUARIOS(Celular,contraseña,Nombres,Apellidos,Numero_identificacion,Correo_electronico) " +
+                        string query = "INSERT INTO USUARIOS(Celular,contrasena,Nombres,Apellidos,Num_Identificacion,Correo_electronico ) " +
                             "VALUES('" + txt_tel.Text + "','" + txt_contraseña.Text + "','" + txt_nombre.Text + "','" +
                                             txt_apellido.Text + "','" + txt_cc.Text + "','" + txt_email.Text + "')";
                         //conn.Open();
@@ -82,7 +82,7 @@ namespace biblioteca_2
             conn.Open();
             string query = "select COUNT(*) from USUARIOS where Correo_electronico = @Correo_electronico";
             SqlCommand consulta = new SqlCommand(query, conn);
-            consulta.Parameters.AddWithValue("@Correo_electronico", txt_email.Text);
+            consulta.Parameters.AddWithValue("@Correo_electronico ", txt_email.Text);
 
             int count = Convert.ToInt32(consulta.ExecuteScalar());
             if (count > 0)
