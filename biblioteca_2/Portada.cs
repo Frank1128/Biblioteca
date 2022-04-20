@@ -19,12 +19,14 @@ namespace biblioteca_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            REGISTRO registro = new REGISTRO();
+            registro.Show();            
         }
     }
 }

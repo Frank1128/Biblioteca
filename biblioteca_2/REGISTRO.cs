@@ -19,7 +19,12 @@ namespace biblioteca_2
 
         private void label1_Click(object sender, EventArgs e)
         {
-            n
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

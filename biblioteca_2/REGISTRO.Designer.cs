@@ -46,17 +46,18 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(155, 327);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 39);
             this.button1.TabIndex = 0;
             this.button1.Text = "REGISTRARSE";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(239, 27);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(102, 20);
             this.textBox1.TabIndex = 1;
@@ -64,7 +65,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(239, 172);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(102, 20);
             this.textBox2.TabIndex = 2;
@@ -72,7 +73,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(239, 218);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(102, 20);
             this.textBox3.TabIndex = 3;
@@ -80,7 +81,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(239, 86);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(102, 20);
             this.textBox4.TabIndex = 4;
@@ -88,7 +89,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(239, 133);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(102, 20);
             this.textBox5.TabIndex = 5;
@@ -96,7 +97,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(239, 264);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(102, 20);
             this.textBox6.TabIndex = 6;
@@ -180,7 +181,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REGISTRO";
             this.Text = "REGISTRO";
             this.ResumeLayout(false);
