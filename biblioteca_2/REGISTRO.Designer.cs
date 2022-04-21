@@ -50,7 +50,7 @@
             // btn_Registrarse
             // 
             this.btn_Registrarse.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_Registrarse.Location = new System.Drawing.Point(64, 531);
+            this.btn_Registrarse.Location = new System.Drawing.Point(309, 526);
             this.btn_Registrarse.Name = "btn_Registrarse";
             this.btn_Registrarse.Size = new System.Drawing.Size(182, 60);
             this.btn_Registrarse.TabIndex = 0;
@@ -169,7 +169,7 @@
             // btn_atras
             // 
             this.btn_atras.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_atras.Location = new System.Drawing.Point(355, 531);
+            this.btn_atras.Location = new System.Drawing.Point(62, 526);
             this.btn_atras.Name = "btn_atras";
             this.btn_atras.Size = new System.Drawing.Size(182, 60);
             this.btn_atras.TabIndex = 14;

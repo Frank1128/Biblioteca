@@ -47,10 +47,10 @@ namespace biblioteca_2
                 {
                     try
                     {
-                        string query = "INSERT INTO USUARIOS(Celular,contrasena,Nombres,Apellidos,Num_Identificacion,Correo_electronico ) " +
+                        string query = "INSERT INTO USUARIOS(Celular,contraseña,Nombres,Apellidos,Num_Identificacion,Correo_electronico ) " +
                             "VALUES('" + txt_phone.Text + "','" + txt_passw.Text + "','" + txt_nombre.Text + "','" +
                                             txt_apellidos.Text + "','" + txt_cedula.Text + "','" + txt_mail.Text + "')";
-                        //conn.Open();
+                        
                         SqlCommand cmd = new SqlCommand(query, conn);
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         cmd.ExecuteNonQuery();
@@ -96,7 +96,7 @@ namespace biblioteca_2
 
             return existe;
         }
-
+        
         private void REGISTRO_Load(object sender, EventArgs e)
         {
             

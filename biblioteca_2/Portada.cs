@@ -34,7 +34,7 @@ namespace biblioteca_2
                         conn.Open();
                         using (SqlCommand command = conn.CreateCommand())
                         {
-                            SqlCommand cmd = new SqlCommand("SELECT Correo_electrónico FROM USUARIOS WHERE Correo_electrónico = '" + txt_correo.Text + "'", conn);
+                            SqlCommand cmd = new SqlCommand("SELECT Correo_electronico FROM USUARIOS WHERE Correo_electronico = '" + txt_correo.Text + "'", conn);
                             SqlDataReader dr = cmd.ExecuteReader();
                             if (dr.Read())
                             {
