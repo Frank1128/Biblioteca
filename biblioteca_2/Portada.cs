@@ -86,5 +86,10 @@ namespace biblioteca_2
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

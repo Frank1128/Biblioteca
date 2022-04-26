@@ -51,7 +51,7 @@
             // 
             this.btn_Registrarse.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_Registrarse.Location = new System.Drawing.Point(206, 342);
-            this.btn_Registrarse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Registrarse.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Registrarse.Name = "btn_Registrarse";
             this.btn_Registrarse.Size = new System.Drawing.Size(121, 39);
             this.btn_Registrarse.TabIndex = 0;
@@ -62,39 +62,39 @@
             // txt_nombre
             // 
             this.txt_nombre.Location = new System.Drawing.Point(199, 148);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(113, 20);
             this.txt_nombre.TabIndex = 1;
             // 
             // txt_phone
             // 
-            this.txt_phone.Location = new System.Drawing.Point(199, 178);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_phone.Location = new System.Drawing.Point(199, 240);
+            this.txt_phone.Margin = new System.Windows.Forms.Padding(2);
             this.txt_phone.Name = "txt_phone";
             this.txt_phone.Size = new System.Drawing.Size(113, 20);
             this.txt_phone.TabIndex = 2;
             // 
             // txt_mail
             // 
-            this.txt_mail.Location = new System.Drawing.Point(199, 211);
-            this.txt_mail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_mail.Location = new System.Drawing.Point(199, 267);
+            this.txt_mail.Margin = new System.Windows.Forms.Padding(2);
             this.txt_mail.Name = "txt_mail";
             this.txt_mail.Size = new System.Drawing.Size(113, 20);
             this.txt_mail.TabIndex = 3;
             // 
             // txt_apellidos
             // 
-            this.txt_apellidos.Location = new System.Drawing.Point(199, 240);
-            this.txt_apellidos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_apellidos.Location = new System.Drawing.Point(199, 181);
+            this.txt_apellidos.Margin = new System.Windows.Forms.Padding(2);
             this.txt_apellidos.Name = "txt_apellidos";
             this.txt_apellidos.Size = new System.Drawing.Size(113, 20);
             this.txt_apellidos.TabIndex = 4;
             // 
             // txt_cedula
             // 
-            this.txt_cedula.Location = new System.Drawing.Point(199, 271);
-            this.txt_cedula.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_cedula.Location = new System.Drawing.Point(199, 211);
+            this.txt_cedula.Margin = new System.Windows.Forms.Padding(2);
             this.txt_cedula.Name = "txt_cedula";
             this.txt_cedula.Size = new System.Drawing.Size(113, 20);
             this.txt_cedula.TabIndex = 5;
@@ -102,7 +102,7 @@
             // txt_passw
             // 
             this.txt_passw.Location = new System.Drawing.Point(199, 298);
-            this.txt_passw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_passw.Margin = new System.Windows.Forms.Padding(2);
             this.txt_passw.Name = "txt_passw";
             this.txt_passw.PasswordChar = '*';
             this.txt_passw.Size = new System.Drawing.Size(113, 20);
@@ -173,7 +173,7 @@
             // 
             this.pictureBox1.Image = global::biblioteca_2.Properties.Resources.th;
             this.pictureBox1.Location = new System.Drawing.Point(116, 17);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(163, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -184,7 +184,7 @@
             // 
             this.btn_atras.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_atras.Location = new System.Drawing.Point(41, 342);
-            this.btn_atras.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_atras.Margin = new System.Windows.Forms.Padding(2);
             this.btn_atras.Name = "btn_atras";
             this.btn_atras.Size = new System.Drawing.Size(121, 39);
             this.btn_atras.TabIndex = 14;
@@ -215,7 +215,7 @@
             this.Controls.Add(this.btn_Registrarse);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REGISTRO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "REGISTRO";
