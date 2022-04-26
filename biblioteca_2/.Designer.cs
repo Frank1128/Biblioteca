@@ -47,7 +47,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(813, 32);
+            this.button1.Location = new System.Drawing.Point(813, 52);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 45);
             this.button1.TabIndex = 0;
@@ -96,11 +96,11 @@
             this.txtautor1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtautor1.Cursor = System.Windows.Forms.Cursors.No;
             this.txtautor1.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtautor1.Location = new System.Drawing.Point(476, 32);
+            this.txtautor1.Location = new System.Drawing.Point(453, 52);
             this.txtautor1.Multiline = true;
             this.txtautor1.Name = "txtautor1";
             this.txtautor1.ReadOnly = true;
-            this.txtautor1.Size = new System.Drawing.Size(262, 44);
+            this.txtautor1.Size = new System.Drawing.Size(284, 44);
             this.txtautor1.TabIndex = 4;
             this.txtautor1.TabStop = false;
             this.txtautor1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -110,11 +110,11 @@
             this.txtlibro1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtlibro1.Cursor = System.Windows.Forms.Cursors.No;
             this.txtlibro1.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlibro1.Location = new System.Drawing.Point(537, 148);
+            this.txtlibro1.Location = new System.Drawing.Point(453, 148);
             this.txtlibro1.Multiline = true;
             this.txtlibro1.Name = "txtlibro1";
             this.txtlibro1.ReadOnly = true;
-            this.txtlibro1.Size = new System.Drawing.Size(200, 42);
+            this.txtlibro1.Size = new System.Drawing.Size(285, 42);
             this.txtlibro1.TabIndex = 5;
             this.txtlibro1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -135,7 +135,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(272, 48);
+            this.label1.Location = new System.Drawing.Point(214, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 30);
             this.label1.TabIndex = 7;
@@ -145,7 +145,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(272, 152);
+            this.label2.Location = new System.Drawing.Point(214, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(193, 30);
             this.label2.TabIndex = 8;
@@ -155,7 +155,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(272, 231);
+            this.label3.Location = new System.Drawing.Point(214, 245);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 30);
             this.label3.TabIndex = 9;
@@ -165,7 +165,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(272, 328);
+            this.label4.Location = new System.Drawing.Point(214, 341);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 30);
             this.label4.TabIndex = 10;

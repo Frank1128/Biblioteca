@@ -21,6 +21,9 @@ namespace biblioteca_2
 
         private void button1_Click(object sender, EventArgs e)
         {
+          
+
+
             {
                 if (txt_Contraseña.Text == string.Empty)
                 {
@@ -56,13 +59,17 @@ namespace biblioteca_2
                     }
                 }
             }
+
+           
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             REGISTRO registro = new REGISTRO();
-            registro.Show();            
+            registro.Show();
+
+           
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -75,12 +82,7 @@ namespace biblioteca_2
             
         }
 
-        private void txt_Contraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void txt_correo_TextChanged(object sender, EventArgs e)
         {
 
         }
