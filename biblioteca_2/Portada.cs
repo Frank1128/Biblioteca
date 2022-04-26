@@ -22,7 +22,7 @@ namespace biblioteca_2
         private void button1_Click(object sender, EventArgs e)
         {
             {
-                if (txt_correo.Text == string.Empty)
+                if (txt_Contraseña.Text == string.Empty)
                 {
                     MessageBox.Show("Llenar campos");
                 }
@@ -34,7 +34,7 @@ namespace biblioteca_2
                         conn.Open();
                         using (SqlCommand command = conn.CreateCommand())
                         {
-                            SqlCommand cmd = new SqlCommand("SELECT Correo_electronico FROM USUARIOS WHERE Correo_electronico = '" + txt_correo.Text + "'", conn);
+                            SqlCommand cmd = new SqlCommand("SELECT contraseña FROM USUARIOS WHERE contraseña = '" + txt_Contraseña.Text + "'", conn);
                             SqlDataReader dr = cmd.ExecuteReader();
                             if (dr.Read())
                             {
@@ -73,6 +73,16 @@ namespace biblioteca_2
         private void Portada_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void txt_Contraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

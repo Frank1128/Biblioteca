@@ -79,7 +79,7 @@ namespace biblioteca_2
         public bool ExisteCorreo()
         {
             bool existe = false;
-            conn.Open();
+            congconn.Open();
             string query = "select COUNT(*) from USUARIOS where Correo_electronico = @Correo_electronico";
             SqlCommand consulta = new SqlCommand(query, conn);
             consulta.Parameters.AddWithValue("@Correo_electronico ", txt_email.Text);
